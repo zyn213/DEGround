@@ -13,7 +13,7 @@ Embodied 3D grounding aims to localize target objects described in human instruc
 
 ## 🌟 News
 
-- \[2024-6\] We release the [paper](https://arxiv.org/abs/2506.05199) to arxiv. DEGround achieves SOTA performance on standard EmbodiedScan dataset.
+- \[2024-6\] Our paper [DEGround](https://arxiv.org/abs/2506.05199) is now on arxiv! It sets a new SOTA on EmbodiedScan.🚀
 
 
 
@@ -21,9 +21,9 @@ Embodied 3D grounding aims to localize target objects described in human instruc
 
 ### 1. Results on Multi-view 3D Detection Validation Dataset
 
-|Model |Overall | Head | Common | Tail | Small | Medium | Large | ScanNet | 3RScan | MP3D | ckpt | log |
-|  :----  | :---: |  :---: | :---: |:---: | :---: | :---: | :---:| :---:|:---:|:---: |:---:|:---: |
-|Ours |24.68|34.45|19.71|19.60|9.23|24.94|15.61|23.62|39.53|10.78 | - |-  
+|Overall | Head | Common | Tail | Small | Medium | Large | ScanNet | 3RScan | MP3D | ckpt | log |
+| :---: |  :---: | :---: |:---: | :---: | :---: | :---:| :---:|:---:|:---: |:---:|:---: |
+|24.68|34.45|19.71|19.60|9.23|24.94|15.61|23.62|39.53|10.78 | - |-  
 
 
 ### 2. Results on Multi-view 3D Grounding Validation Dataset
@@ -34,13 +34,13 @@ Embodied 3D grounding aims to localize target objects described in human instruc
 
 ### 3. [Results on Multi-view 3D Grounding Test Dataset](https://huggingface.co/spaces/AGC2024/visual-grounding-2024)
 
-| Method            | Backbone   | Overall<sub>0.25</sub> | Easy<sub>0.25</sub> | Hard<sub>0.25</sub> | Overall<sub>0.5</sub> | Easy<sub>0.5</sub> | Hard<sub>0.5</sub> |
+| Method            | Backbone | Overall<sub>0.5</sub> | Easy<sub>0.5</sub> | Hard<sub>0.5</sub>  | Overall<sub>0.25</sub> | Easy<sub>0.25</sub> | Hard<sub>0.25</sub>  |
 |-------------------|------------|--------------|-----------|-----------|-------------|----------|----------|
-| [EmbodiedScan](https://github.com/OpenRobotLab/EmbodiedScan)  | ResNet-50  | 39.67        | 40.52     | 30.24     | 16.35       | 16.71    | 12.37    |
-| [SAG3D](https://opendrivelab.github.io/Challenge%202024/multiview_Mi-Robot.pdf)       | ResNet-50  | 46.92        | 47.72     | 38.03     | 20.38       | 20.91    | 14.49    |
-| [DenseGrounding](https://opendrivelab.github.io/Challenge%202024/multiview_THU-LenovoAI.pdf) | ResNet-50  | 59.59        | 60.39     | 50.81     | 34.72       | 35.46    | 26.56    |
-| [BIP3D](https://github.com/HorizonRobotics/BIP3D?tab=readme-ov-file)        | Swin-T     | 70.53        | 71.22     | **62.91** | 39.69       | 40.40    | 31.77    |
-| **DEGround (Ours)**| ResNet-50 | **70.56**    | **71.42** | 60.99     | **42.04**   | **42.65**| **35.18**|
+| [EmbodiedScan](https://github.com/OpenRobotLab/EmbodiedScan)  | ResNet-50   |16.35       | 16.71    | 12.37    | 39.67        | 40.52     | 30.24     | 
+| [SAG3D](https://opendrivelab.github.io/Challenge%202024/multiview_Mi-Robot.pdf)       | ResNet-50  |20.38       | 20.91    | 14.49    | 46.92        | 47.72     | 38.03     | 
+| [DenseGrounding](https://opendrivelab.github.io/Challenge%202024/multiview_THU-LenovoAI.pdf) | ResNet-50  |34.72       | 35.46    | 26.56    | 59.59        | 60.39     | 50.81     | 
+| [BIP3D](https://github.com/HorizonRobotics/BIP3D?tab=readme-ov-file)        | Swin-T     |  39.69       | 40.40    | 31.77    |70.53        | 71.22     | **62.91** |
+| **DEGround (Ours)**| ResNet-50 |**42.04**   | **42.65**| **35.18**| **70.56**    | **71.42** | 60.99     | 
 
 
 ## 📝 Citation
@@ -66,4 +66,5 @@ If you find our work helpful in your research, please consider citing:
 We deeply appreciate the authors' efforts in releasing the following projects to the community.
 - [EmbodiedScan](https://github.com/OpenRobotLab/EmbodiedScan)
 - [DETR](https://github.com/facebookresearch/detr)
+- [OpenMMLab](https://github.com/open-mmlab)
 
