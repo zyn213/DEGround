@@ -42,9 +42,8 @@ Embodied 3D grounding aims to localize target objects described in human instruc
 | [BIP3D](https://github.com/HorizonRobotics/BIP3D?tab=readme-ov-file)        | Swin-T     | 70.53        | 71.22     | **62.91** | 39.69       | 40.40    | 31.77    |
 | **DEGround (Ours)**| ResNet-50 | **70.56**    | **71.42** | 60.99     | **42.04**   | **42.65**| **35.18**|
 
-### References
 
-## 🔗 Citation
+## 📝 Citation
 
 If you find our work helpful in your research, please consider citing:
 
